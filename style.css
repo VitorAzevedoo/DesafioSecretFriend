@@ -1,0 +1,159 @@
+/* ==============================
+   Paleta de cores em variáveis
+=================================*/
+:root {
+    --cor-base: #4B69FD;
+    --cor-fundo: #FFF9EB;
+    --cor-neutro: #C4C4C4;
+    --cor-acento: #fe652b;
+    --cor-acento-hover: #e55720;
+    --cor-texto: #444444;
+    --cor-claro: #FFFFFF;
+}
+
+/* Reset padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Estrutura principal ===== */
+body {
+    height: 100vh;
+    background: var(--cor-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Conteúdo principal em coluna */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== Cabeçalho ===== */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* ===== Seção de entrada ===== */
+.input-section {
+    flex: 60%;
+    background: var(--cor-fundo);
+    border: 1px solid #000;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* ===== Títulos ===== */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--cor-claro);
+}
+
+.section-title {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--cor-base);
+    margin: 12px 0;
+    text-align: center;
+}
+
+/* ===== Input + Botão ===== */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+/* ===== Botões ===== */
+button {
+    padding: 14px 28px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button-add {
+    background: var(--cor-neutro);
+    color: var(--cor-texto);
+    border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+    background: #9e9e9e;
+}
+
+.button-container {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* ===== Listas ===== */
+ul {
+    list-style: none;
+    color: var(--cor-texto);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 16px;
+    color: #05df05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ===== Botão de sorteio ===== */
+.button-draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 40px;
+    background: var(--cor-acento);
+    color: var(--cor-claro);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 36px;
+}
+
+.button-draw:hover {
+    background: var(--cor-acento-hover);
+}
