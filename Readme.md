@@ -29,4 +29,4 @@ Quando todos estiverem na lista, clique em Sortear e descubra o amigo secreto!
 
 👨‍💻 Autor:
 
-Desenvolvido com 💡 e ☕ por Vitor Azevedo.
+Desenvolvido por Vitor Azevedo.
