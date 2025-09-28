@@ -1,4 +1,4 @@
-<h1 align="center">🎁 Challenge Amigo Secreto 🎁</h1> <p align="center"> Um projeto divertido para organizar seu sorteio de amigo secreto de forma prática e totalmente online. </p>
+<h1 align="center">🎁 Challenge Amigo Secreto 🎁</h1> <p align="center"> Um projeto para organizar seu sorteio de amigo secreto de forma prática e totalmente online. </p>
 ✨ Sobre o Projeto:
 
 Aplicação web simples e interativa onde você pode:
